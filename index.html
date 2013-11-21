@@ -3,13 +3,23 @@
     <head>
         <meta charset="utf-8" />
         <title>Start</title>
-        
+        <link rel="stylesheet" href="css/stylesheet.css"/>
     </head>
     <body>
-        <img src="pics/header.png" alt="Amandas kurssida"/>
-        <h1>Amandas kurssida</h1>
-        <h2>Webbsida för kursen Klientbaserad webbutveckling</h2>
-        <div>
+    
+    <div id="container">
+        
+        <!--Header-->
+        
+        <div id="header">
+            <img src="pics/header.png" alt="Amandas kurssida" id="headimg"/>
+            <h1>Amandas kurssida</h1>
+            <h2>Webbsida för kursen Klientbaserad webbutveckling</h2>
+        </div>
+        
+        <!--Meny-->
+        
+        <div id="nav">
             <ul>
                 <li><a href="index.html">Start</a></li>
                 <li><a href="pages/presentation.html">Presentation</a></li>
@@ -17,12 +27,22 @@
                 <li><a href="pages/kontakt.html">Kontakt</a></li>
             </ul>
         </div>
-        
-        <div>
-            <h3>Första inlägget</h3>
-            <p>Här kommer jag att skriva lite om det vi gör i kursen.</p>
-        </div>
-        
+            
+            <div id="content">
+                <div class="bloggpost">
+                    <h3>Första inlägget</h3>
+                    <p>Här kommer jag att skriva lite om det vi gör i kursen.</p>
+                </div>
+                
+                <div class="bloggpost">
+                    <h3>Första inlägget</h3>
+                    <p>Här kommer jag att skriva lite om det vi gör i kursen.</p>
+                </div>
+            </div>
+            
+                <div id="footer"><p>Amandas sida</p></div> 
+     </div> 
+
     </body>
     
 </html>

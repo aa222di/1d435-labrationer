@@ -1,0 +1,68 @@
+
+/* Layout */
+
+#container {
+ max-width:960px;
+ border:2px solid aqua;
+ background-color:#FFF; 
+ margin:0 auto;
+overflow: auto;    
+    
+    
+}
+
+#header {
+    background-color:#fff;
+    width: 100%;
+    
+    
+    
+    
+}
+
+#nav {
+    background-color:navy;
+    width: 160px;
+    height: auto;
+    float: left;
+    
+}
+
+#content {
+    background-color:#fff;
+    border:1px solid black;
+    width: 60%;
+    margin:0 auto 5px 10px;
+    height: auto;
+    float: left;
+    
+}
+
+.bloggpost {
+    background-color:#fff;
+    margin:2px auto;
+    height: auto;
+    width: 95%;
+    border:1px dotted aqua;
+}
+
+#footer {
+ background-color:#fff;    
+ width: auto;
+ clear: both;
+ border-top: 1px solid aqua;
+}
+
+
+/* formatering*/
+
+#headimg {
+    margin: auto;
+    
+}
+
+#header h1, h2 {
+    margin-top: 5px ;
+    margin-left: auto;
+    margin-right: auto;
+}
