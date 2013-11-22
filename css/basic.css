@@ -52,7 +52,7 @@ table {
 
 /*-----------------------------------------------------------------------------------------------------------*/
 
-/* Layout */
+/*------------------------------------------------------------- Layout-------------------------------------------------------------------- */
 
 
 
@@ -79,23 +79,26 @@ table {
     width: 160px;
     height: auto;
     float: left;
+    margin-left:10px;
+    
     
 }
 
 #content {
     background-color:#fff;
     border:1px solid black;
-    width: 60%;
-    margin-left: 10px;
+    width: 75%;
+    margin-left: 20px;
     margin-top: 10px;
     height: auto;
     float: left;
+    padding: 10px;
     
 }
 
 .bloggpost {
     background-color:#fff;
-    margin:2px auto;
+    margin: auto;
     height: auto;
     width: 95%;
     border:1px dotted aqua;
@@ -105,11 +108,31 @@ table {
  background-color:#fff;    
  width: auto;
  clear: both;
+ 
  border-top: 1px solid aqua;
 }
 
+/*---------------------------------------------formatering text standard-----------------------------------------------*/
 
-/* formatering-header--------------------------------------------------------------------------------*/
+h1 {
+    font: small-caps bold 1.5em/120% "Helvetica", sans-serif;
+    
+}
+
+h3 {
+    font: bold 1.3em/120% "Helvetica", sans-serif;
+    
+}
+
+p {
+    font:0.8em/110% "Georgia", serif;
+    
+    
+}
+
+
+
+/* --------------------------------------------formatering-header--------------------------------------------------------------------------------*/
 
 #header .headimg {
     margin: auto;
@@ -120,12 +143,11 @@ table {
 
 #header h1 {
     
-    font:normal small-caps bold 1.5em/120% "Helvetica", sans-serif;
    text-align: center;
     
 }
 
-/* formatering-nav--------------------------------------------------------------------------------*/
+/* --------------------------------------------formatering-nav--------------------------------------------------------------------------------*/
     
     
 
@@ -162,4 +184,29 @@ table {
     background-repeat: no-repeat;
     background-position: right;
     
+    
 }
+
+/*-----------------------------------------------Bild----------------------------------------------------------------------------------------------*/
+
+#bildamanda {
+    float: right;
+    
+   
+    
+}
+/*----------------------------------------------Listor--------------------------------------------*/
+
+.listpres {
+   
+    
+    
+}
+
+
+
+
+
+
+
+
