@@ -30,10 +30,12 @@
             </ul>
         </div>
     
-           <!-------------content-------------------------->
+           <!-- content -->
         
-        <div>
+        <div id="content">
             <form action=" http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+                
+            <div class="presentationslista">
                 
                 <fieldset>
                     <legend>Ärende</legend>
@@ -51,12 +53,20 @@
                     <textarea rows="5" cols="10" name="question" id="question" placeholder="Din fråga här"></textarea></div>
                     
                 </fieldset>
+                
+            </div> 
+            
+            <div class="presentationslista">
+            
                 <fieldset>
                     <legend>Information om dig</legend>
                     
                     
                     <div><input type="radio" name="kontaktvia" value="mail" id="mail" /> <label for="mail">Kontakta mig via mail</label></div>
                      <div><input type="radio" name="kontaktvia" value="tel" id="tel" /> <label for="tel">Kontakta mig via telefon</label></div>
+            </div>
+            
+            <div class="presentationslista">         
                      <p>Jag är tillgänglig dessa dagar:</p>
                      <input type="checkbox" name="kontaktdagar[]" value="mandag" id="man" /> <label for="man">Måndag</label><br>
                      <input type="checkbox" name="kontaktdagar[]" value="tisdag" id="tis" /> <label for="tis">Tisdag</label><br>
@@ -70,11 +80,13 @@
                 </fieldset>
                 
                 <input type="submit" value="Skicka!"/>
+            
+            </div>
                 
             </form>   
             
         </div>
-        <!---------------------------footer-------------------------------->
+        <!--footer -->
             
                 <div id="footer">Amandas sida</div> 
      </div> 

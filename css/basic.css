@@ -22,9 +22,9 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: baseline; 
 }
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers */ 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ ul {
 	list-style: none;
 }
 blockquote, q {
@@ -52,12 +52,12 @@ table {
 
 /*-----------------------------------------------------------------------------------------------------------*/
 
-/*------------------------------------------------------------- Layout-------------------------------------------------------------------- */
+/*------------------------------------------------------------- Layout Allmängiltig för hela sidan-------------------------------------------------------------------- */
 
 
 
 #container {
- max-width:960px;
+ width:960px;
  
  border:1px solid aqua;
  background-color:#FFF; 
@@ -76,61 +76,136 @@ table {
 
 #nav {
     background-color:#fff;
-    width: 160px;
+    width: 140px;
     height: auto;
     float: left;
-    margin-left:10px;
+    margin-left:1%;
+    margin-top: 1%;
     
     
 }
 
 #content {
     background-color:#fff;
-    border:1px solid black;
-    width: 75%;
-    margin-left: 20px;
-    margin-top: 10px;
+   
+    width: 80%;
+    margin: 1%;
     height: auto;
     float: left;
-    padding: 10px;
-    
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .bloggpost {
     background-color:#fff;
-    margin: auto;
+    margin: 1% auto;
     height: auto;
     width: 95%;
     border:1px dotted aqua;
+}
+
+.presentationslista {
+    float: left;
+    width: 25%;
+    margin: 1%;
+    
+    
 }
 
 #footer {
  background-color:#fff;    
  width: auto;
  clear: both;
- 
  border-top: 1px solid aqua;
 }
 
-/*---------------------------------------------formatering text standard-----------------------------------------------*/
+/*---------------------------------------------formatering text tabeller standard-----------------------------------------------*/
 
 h1 {
     font: small-caps bold 1.5em/120% "Helvetica", sans-serif;
     
 }
 
+h2 {
+    font: small-caps bold 1.2em/120% "Helvetica", sans-serif;
+    background-color:navy;
+    color:#fff;
+     -moz-border-radius: 7px;
+    border-radius: 7px;
+    margin-bottom: 1%;
+    
+}
+
 h3 {
-    font: bold 1.3em/120% "Helvetica", sans-serif;
+    font: small-caps 1em/120% "Helvetica", sans-serif;
     
 }
 
 p {
     font:0.8em/110% "Georgia", serif;
+   
     
     
 }
 
+ th, td {
 
+    border-bottom: 1px solid navy;
+    padding: 2px;
+    width:25%;
+
+}
+
+th {
+   background-color: navy;
+   color: white;
+   font:small-caps 1em/100% "Helvetica", sans-serif;
+   
+}
+
+th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+ul li {
+    
+   font: bold 0.8em/110% "Helvetica", sans-serif;
+    
+}
+
+li ul li {
+    
+    font:  1em/110% "Helvetica", sans-serif;
+    margin-left: 5px;
+    list-style: circle;
+}
+
+li {
+    margin-top: 1px;
+}
+
+li ul li:last-child {
+    margin-bottom: 8px;
+    
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd { 
+    font-style: italic;
+    
+}
 
 /* --------------------------------------------formatering-header--------------------------------------------------------------------------------*/
 
@@ -152,8 +227,9 @@ p {
     
 
 
-#nav li {
-    margin: 10px 0;
+#nav ul li {
+    margin-bottom: 5%;
+    font:small-caps bold 1em/120% "Helvetica", sans-serif;
     
 }
 
@@ -191,22 +267,108 @@ p {
 
 #bildamanda {
     float: right;
-    
-   
-    
-}
-/*----------------------------------------------Listor--------------------------------------------*/
-
-.listpres {
-   
-    
-    
 }
 
+/*---------------------------------------------------Specifikt för laborationersidan-------------------------------------*/
+
+
+#menylabb {
+    width: 140px;
+    margin-top:2%;
+    float: left;
+    margin-left: 1%;
+    
+    
+}
+
+#menylabb a {
+
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    font:small-caps bold 1em/120% "Helvetica", sans-serif;
+    text-decoration: none;
+    background-color: aqua;
+    color: navy;
+    display: block;
+    padding: 10px;
+    margin-bottom: 2%;
+    
+    
+}
+
+
+
+#menylabb a:hover {
+    background-color:#fff;
+    
+    
+    
+}
+
+
+#resultstable {
+    
+    float:right;
+    margin-top:2%;
+    margin-bottom: 3%;
+    margin-right: 2%;
+    
+    
+}
 
 
 
 
+#lab1 {
+    clear: both;
+    
+}
 
+#lab1 {
+    width:100%;
+    
+    }
+
+
+#lab1 ol { 
+     
+    font-family:Georgia, Times, serif; 
+    font-size:24px; 
+    color:navy; 
+}
+
+#lab1 ol li p {
+    padding:8px; 
+    font-style:normal; 
+    font-family:Arial; 
+    font-size:13px; 
+    color:navy; 
+      }
+    
+    
+#lab1 ol li dl dt {
+    padding:8px; 
+    font-weight: bold; 
+    font-style: italic;
+    font-family:Arial; 
+    font-size:13px; 
+    color:navy; 
+      }
+    
+#lab1 ol li dl dd {
+    padding:8px; 
+    font-style: italic; 
+    font-family:Arial; 
+    font-size:13px; 
+    color:navy; 
+      }
+    
+   
+
+/*----------------------------------------------------Specifikt Presentation-------------------------------------------*/
+
+.presentationslista ul {
+    list-style: square;
+}
 
 
