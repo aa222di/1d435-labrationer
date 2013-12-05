@@ -398,25 +398,25 @@ dd {
 
 
 
-#lab {
+.lab {
     clear: both;
     
 }
 
-#lab {
+.lab {
     width:100%;
     
     }
 
 
-#lab ol { 
+.lab ol { 
      
     font-family:Georgia, Times, serif; 
     font-size:24px; 
     color:black; 
 }
 
-#lab ol li p {
+.lab ol li p {
     padding:8px; 
     font-style:normal; 
     font-family:Arial; 
@@ -425,7 +425,7 @@ dd {
       }
     
     
-#lab ol li dl dt {
+.lab ol li dl dt {
     padding:8px; 
     font-weight: bold; 
     font-style: italic;
@@ -434,7 +434,7 @@ dd {
     color:black; 
       }
     
-#lab ol li dl dd {
+.lab ol li dl dd {
     padding:8px; 
     font-style: italic; 
     font-family:Arial; 
