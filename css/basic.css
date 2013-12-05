@@ -545,6 +545,8 @@ dd {
     
     a:link:after { content:" [" attr(href) "] "; }
     
+    #validators { display: none ;}
+    
     
     
 }    
