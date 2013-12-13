@@ -6,7 +6,8 @@
 // ["hej", 2, "då"] ska bli ["då", 2, "hej"]
 function test_extra_1(arr) {
 	
-	// Din kod här
+	arr.reverse();
+	return arr;
 	
 }
 
@@ -14,7 +15,12 @@ function test_extra_1(arr) {
 // returnera det mittersta av dessa ord
 function test_extra_2(words) {
 	
-	// Din kod här
+	var arr = words.split(" ");
+	
+	var mitt = arr.length / 2;
+	mitt = Math.round(mitt) -1;
+
+	return arr[mitt];
 }
 
 
@@ -27,8 +33,17 @@ function test_extra_2(words) {
 // För att lösa denna uppgift kan du behöva nästla två for-loopar dvs. lägga en for-loop i en annan
 function drawTable(rows, cols) {
 	document.write("<table border='1'>");
+    //Vi börjar med en  forloop för rows
+	for (var i = 0; i < rows; i++){
+	 document.write("<tr>");
+	    //Sedan vill vi att den ska skapa x-antal cols för varje rows så vi lägger ännu en for-loop i loopen.
+	   for(var j = 0; j < cols; j++) {
+	   document.write("<td>" + rows + ":" + cols + "</td>");
+	    }
+	    //Slutligen stänger vi tr efter varje row som nu fyllts på med td
+	    document.write("</tr>");
+	}
 	
-	// Din kod här
 	
 	document.write("</table>");
 }
