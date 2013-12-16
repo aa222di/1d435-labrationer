@@ -93,6 +93,12 @@ CE6446 rosa
 
 */
 
+/*------------------------------------------------------------- Kod som har att göra med js-------------------------------------------------------------------- */
+
+.hide {
+    display:none;
+    
+}
 
 
 /*------------------------------------------------------------- Layout Allmängiltig för hela sidan-------------------------------------------------------------------- */
@@ -350,6 +356,7 @@ dd {
     margin-top:2%;
     float: left;
     margin-left: 1%;
+    margin-bottom: 2%;
     
     
 }
@@ -382,6 +389,21 @@ dd {
     background-position: 100px 6px
     }
     
+#menylabb li:last-child a {    
+    background-color: #1C6B42 ;
+    border-bottom: 2px solid #2A5A63;
+    border-left: 2px solid #2A5A63;
+    background-image: none;
+    
+}
+
+#menylabb li:last-child a:hover {    
+    background-color: #112529 ;
+    border-bottom: 2px solid #0A1517;
+    border-left: 2px solid #0A1517;
+    background-image: none;
+    
+}
 /*#menylabb a:visited { background-position: 100px -138px ; } verkar som att visited inte fungerar på ankarlänkar? */ 
 
 
@@ -396,8 +418,10 @@ dd {
 }
 
 
-
-
+/*.lab div {
+    display:none;
+}
+*/
 .lab {
     clear: both;
     
