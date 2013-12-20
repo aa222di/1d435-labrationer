@@ -1,26 +1,76 @@
 <!doctype html>
 <html lang="sv">
-    <head>
-        <meta charset="utf-8"/> 
-        <title>Valutakonverterare</title>
-    </head>
     
+    
+    <head>
+        <meta charset="utf-8" />
+        <title>Valutakonverterare</title>
+        <link rel="stylesheet" href="../css/basic.css"/> 
+       
+    </head>
     <body>
-        <form>
+    
+    <div id="container">
+        
+        <!--Header-->
+        
+        <div id="header"></div>
+            
+        
+    
+    
+                <h1>Valutakonverterare</h1>
+        <!--Meny-->
+        
+        <div id="nav">
+            <ul>
+                <li><a href="../index.html">Start</a></li>
+                <li><a href="presentation.html">Presentation</a></li>
+                <li><a href="laborationer.html">Laborationer</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    
+           <!-- content -->
+        
+        <div id="content">
+       
+        <form id="converter">
             <fieldset>
-                <legend>Valutakonverterare</legend>
-                <label for="number">Skriv in värde</label>
-                 <input id="number" type="number" name="number"/>
+               
+                
+                <label for="number">Skriv in ett värde</label>
+                 <input id="number" type="text" name="number"/>
+                 
+                 <label for="currency">Välj valuta</label>
+                   
+                    <select id="currency" name="currency">
+                        <option value="euro" selected>euro</option>
+                        <option value="dollar">dollar</option>
+                    </select>
+                    
                  <button type="button" name"convert">Konvertera</button>
             </fieldset>
+           
+        <p id="resultat"></p>
+            
         </form>
         
-        <p id="resultat"></p>
-        
-        <script src="../js/basic.js"></script>
+         </div>
+        <!--footer -->
+            
+               <div id="footer">
+               <div id="validators"> <ul>
+                           <li><a href="http://validator.w3.org/check/referer" id="HTML5link"></a></li> 
+                            <li><a href="http://jigsaw.w3.org/css-validator/check/referer"id="CSSlink" ></a></li>
+                         <li><a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance" id="Unicornlink"></a></li>
+                    </ul></div>
+               
+               <div id="foottext">
+               
+               <p>Amanda Åberg är ansvarig för innehållet på denna sida</p></div></div> 
+     </div> 
+<script src="../js/convert.js"></script>
     </body>
-    
-    
-    
     
 </html>

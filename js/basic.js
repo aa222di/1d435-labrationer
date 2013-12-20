@@ -1,3 +1,5 @@
+
+
 //Väljer ut tabell
 
 var table = document.querySelector("table");
@@ -11,7 +13,4 @@ var hide = function(){
 //Tabell-gömmar-knapp
 var resultsbutton = document.querySelector("#menylabb li:last-child a");
 resultsbutton.onclick = hide;
-
-
-
 
